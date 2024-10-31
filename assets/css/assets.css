@@ -1,0 +1,25 @@
+body {
+    width: 1100px;
+    
+}
+main {
+    width: 1100px;
+}
+#upPage {
+    width: 1100px;
+    height: 300px;
+    display: flex;
+}
+
+#divLeft {
+    width :300px;
+    height: 250px;
+    flex-basis: 50%;
+}
+
+
+#divRight {
+   width:  300px ;
+   height: 300px;
+   flex-basis: 50% ;
+}
