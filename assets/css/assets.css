@@ -1,25 +1,81 @@
 body {
-    width: 1100px;
+    display: flex;
+    flex-direction: column;
     
 }
-main {
-    width: 1100px;
-}
-#upPage {
-    width: 1100px;
-    height: 300px;
+header {background-color: #ffc017 ;
+    border-bottom: 1px solid;
+    padding: 13px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+header div:last-of-type {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+}
+header img {
+    padding-left: 10%;
+    width: 10%;
+}
+header div a {
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    margin-right: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 600 ;
+    font-size: 11px ;
+    
+    
+}
+header div a:last-of-type{
+    background-color: #191919;
+    margin-right: 60px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    opacity: 100%;
+}
+
+/* INIZIO MAIN */
+
+#upPage {
+   background-color: #ffc017 ;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
 }
 
 #divLeft {
-    width :300px;
+    
     height: 250px;
-    flex-basis: 50%;
+   
 }
 
 
 #divRight {
-   width:  300px ;
-   height: 300px;
-   flex-basis: 50% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Spectral", serif;
+}
+
+
+h1 {
+font-weight: 500;
+    font-size: 65px;
+}
+
+.pUpMain {opacity: 70%;
+
+
 }
