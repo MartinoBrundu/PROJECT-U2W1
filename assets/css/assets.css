@@ -172,12 +172,18 @@ h5 {
   
   font-family: "roboto", serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 10px;
+}
+
+.imgP{
+  display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 h3 {
   font-weight: 900;
-    font-size: 20px;
+    font-size: 13px;
     font-family: sans-serif;
     margin-top: 5px;
 }
@@ -186,19 +192,16 @@ h3 {
 
     font-family: "roboto", serif;
     font-weight: 400;
-    font-size: 85%;
+    font-size: 83%;
     opacity: 50%;
     margin: 8px 0px 12px 0px;
 }
 
-.imgP {
-  display: flex;
-    align-items: center;
-}
+
 
 .downImg {
   border-radius: 30px;
-  width: 25px;
+  width: 20px;
   margin-right: 10px;
   border: 1px solid silver
 
@@ -240,6 +243,10 @@ flex-basis: 50%;
 
 #secThree {
   flex-basis: 25%;
+}
+
+.divContainer{
+  margin-bottom: 30px;
 }
 
 
