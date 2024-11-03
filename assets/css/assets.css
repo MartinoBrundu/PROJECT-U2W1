@@ -1,81 +1,99 @@
 body {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
-header {background-color: #ffc017 ;
-    border-bottom: 1px solid;
-    padding: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 header div:last-of-type {
-    flex-wrap: nowrap;
-    display: flex;
-    align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
 }
 header img {
-    padding-left: 10%;
-    width: 10%;
+  padding-left: 10%;
+  width: 10%;
 }
 header div a {
-    text-decoration: none;
-    color: black;
-    opacity: 70%;
-    margin-right: 20px;
-    font-family: "Spectral", serif;
-    font-weight: 600 ;
-    font-size: 11px ;
-    
-    
+  text-decoration: none;
+  color: black;
+  opacity: 70%;
+  margin-right: 20px;
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-size: 11px;
 }
-header div a:last-of-type{
-    background-color: #191919;
-    margin-right: 60px;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 40px;
-    opacity: 100%;
+header div a:last-of-type {
+  background-color: #191919;
+  margin-right: 60px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  opacity: 100%;
 }
 
 /* INIZIO MAIN */
 
 #upPage {
-   background-color: #ffc017 ;
-    display: flex;
-    justify-content: space-evenly;
-    
-    
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #divLeft {
-    
-    height: 250px;
-   
+  height: 250px;
 }
-
 
 #divRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Spectral", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Spectral", serif;
 }
-
 
 h1 {
-font-weight: 500;
-    font-size: 65px;
+  font-weight: 500;
+  font-size: 65px;
 }
 
-.pUpMain {opacity: 70%;
-
-
+.pUpMain {
+  opacity: 70%;
+  margin-top: 13px;
 }
+
+.firstAncorMain {
+  background-color: #191919;
+  margin-right: 60px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  opacity: 100%;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.firstDivSec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section div:first-of-type p {
+  font-family: "Spectral", serif;
+}
+
+
