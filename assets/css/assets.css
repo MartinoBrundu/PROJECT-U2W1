@@ -123,6 +123,9 @@ h1 {
 #downTrend {
   margin-left: 30px;
 }
+#unic {
+  margin-right: 18%;
+}
 
 .parentDiv {
   display: flex;
@@ -273,7 +276,11 @@ h3 {
 .bookmark {
   margin-right: 5px;
 }
-
+span {
+  padding: 5px 5px;
+    border-radius: 19px;
+    background-color: #bebfc0;
+}
 .onAncor {
   font-family: 'spectral', serif;
   font-weight: 900;
@@ -300,9 +307,14 @@ opacity: 43%;
 }
 
 li {
+  
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   padding: 2px;
   /* border: 1px solid silver; */
   margin: 3px;
+}
+
+li a {
+  text-decoration: none;
 }
