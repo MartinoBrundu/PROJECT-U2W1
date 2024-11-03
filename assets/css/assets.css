@@ -4,7 +4,7 @@ body {
 }
 header {
   background-color: #ffc017;
-  border-bottom: 1px solid;
+
   padding: 13px;
   display: flex;
   align-items: center;
@@ -48,6 +48,8 @@ header div a:last-of-type {
   background-color: #ffc017;
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
 }
 
 #divLeft {
@@ -86,14 +88,95 @@ h1 {
   font-size: 15px;
 }
 
+section {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.divup {
+  padding: 5% 9%;
+}
+
 .firstDivSec {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  font-weight: 900;
+  font-family: "spectral", serif;
+  margin-bottom: 15px ;
+  font-size: 60%;
 }
 
-section div:first-of-type p {
-  font-family: "Spectral", serif;
+.trading {
+  margin-left: 10px;
+}
+#bigDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.parentDiv {
+  display: flex;
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+.number {
+  margin-right: 20px;
+}
+
+h5 {
+  font-weight: bolder;
+  font-size: 35px;
+  opacity: 20%;
+  font-family: "spectral", serif;
+}
+
+.divInline {
+  display: flex;
+  font-family: "roboto", serif;
+  font-weight: 500;
+  align-items: center;
+  font-size: 50%
+}
+
+.allImg {
+  border-radius: 30px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.paragrafOne {
+  font-family: "roboto", serif;
+  font-size: 70%;
+  font-weight: 900;
+  margin: 15px 0px;
+}
+
+.paragrafSmall {
+  font-family: "roboto", serif;
+  opacity: 40%;
+  font-weight: 400;
+  font-size: 65%;
+  margin-right: 2%;
+}
+
+.star {display: flex;
+  align-items: center;
+
+}
+
+.downP {
+  
+  font-family: "roboto", serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h3 {
+  font-weight: 900;
+    font-size: 20px;
+    font-family: sans-serif;
+}
 
